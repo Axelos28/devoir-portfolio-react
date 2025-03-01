@@ -1,3 +1,25 @@
 main{
     background-color: white;
 }
+
+.image-title{
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    color:white;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 4em;
+}
+
+h2{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 3em;
+}
