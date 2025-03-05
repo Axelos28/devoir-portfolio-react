@@ -1,10 +1,16 @@
 
-main{
+body{
     background-color: white;
+}
+
+main{
+    height: 1800px;
 }
 
 .image-title{
     position: relative;
+    width: 100%;
+    height: 50%;
 }
 
 h1{
@@ -35,3 +41,49 @@ h2{
 .modal-body{
     display: flex;
 }
+
+#John{
+    width: 100%;
+    height: 240px;
+}
+
+.info{
+    border: 1px solid white;
+    box-shadow: 3px 3px 5px 2px rgb(238, 231, 231), -3px -3px 5px 2px rgb(238, 231, 231);
+    border-radius: 5px;
+    width: 60%;
+    height: 70%;
+    margin-top: 15em;
+    margin-bottom: 1em;
+    position: absolute;
+    left: 20%;
+    display: flex;
+}
+.cont1{
+    width: 50%;
+    padding-left: 1em;
+    margin-right: 1em;
+}
+
+.cont2{
+    width: 50%;
+    padding-right: 1em;
+}
+
+.line{
+    
+    border: 2px solid navy;
+  
+}
+
+.stat{
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+footer{
+    background-color: #232527;
+    width: 100%;
+    height: 300px;
+}
+
