@@ -44,15 +44,7 @@
       </nav>
   </header>
   <main>
-    <!--1ere partie de la page-->
-    <div class="image-title"><img src="./assets/images/hero-bg.jpg" class="img-fluid" alt="un homme devant son pc">
-     <h1 style="font-size: 4.2vw;">Bonjour , je suis John Doe</h1>
-     <h2 style="font-size: 3.5vw;">Développeur web full stack</h2> 
-
-     <!--bouton modale-->
-     <button id="bouton" type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal" style="font-size: 1VW;">En savoir plus</button>
-    </div>
-
+   
     <!--modale-->
     <div class="modal fade text-white" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg">
@@ -93,16 +85,30 @@
       </div>
      </div>
 
+
+    <!--1ere partie de la page-->
+    <div>
+      <div class="image-title"><img id="hero" src="./assets/images/hero-bg.jpg" class="img-fluid" alt="un homme devant son pc">
+        <h1 >Bonjour , je suis John Doe</h1>
+        <h2 >Développeur web full stack</h2> 
+
+        <!--bouton modale-->
+        <button id="bouton" type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal" style="font-size: 1vw;">En savoir plus</button>
+      </div>
+    </div>
+
+
+    <!--seconde partie de la page-->
     <div class="info">
       <div class="cont1">
         <div class="left-title"><h4>A propos</h4><hr class="line"></div>
         <div><img id="John" src="./assets/images/john-doe-about.jpg" class="img-fluid" alt="John Doe"></div>
-        <div class="text1"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit soluta libero, doloribus alias consectetur quasi ipsa delectus labore est molestiae molestias magnam non aspernatur quos maiores, expedita cum velit at.</p></div>
-        <div class="text2"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, repellendus obcaecati fugiat animi nihil dolorum molestiae dignissimos eaque facilis ipsa amet cum enim provident blanditiis cumque, dolores ea? Similique, quis.</p></div>
-        <div class="text3"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis non dolores at, doloremque, tempore laborum molestias esse dolorem exercitationem dolor, atque nemo quo iste illo ad magnam ratione quae consequuntur?</p></div>
+        <div class="text" ><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit soluta libero, doloribus alias consectetur quasi ipsa delectus labore est molestiae molestias magnam non aspernatur quos maiores, expedita cum velit at.</p></div>
+        <div class="text" ><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, repellendus obcaecati fugiat animi nihil dolorum molestiae dignissimos eaque facilis ipsa amet cum enim provident blanditiis cumque, dolores ea? Similique, quis.</p></div>
+        <div class="text" ><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis non dolores at, doloremque, tempore laborum molestias esse dolorem exercitationem dolor, atque nemo quo iste illo ad magnam ratione quae consequuntur?</p></div>
       </div>
       <div class="cont2">
-        <div class="right-title"><h4>Mes compétences</h4><hr class="line"></div>
+        <div class="right-title"><h4 >Mes compétences</h4><hr class="line"></div>
         <div><p class="stat">HTML5 90%</p></div>
         <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
           <div class="progress-bar bg-danger" style="width: 90%"></div>
@@ -126,6 +132,7 @@
 
       </div>
     </div>
+   
   </main>
   <footer></footer>
 
