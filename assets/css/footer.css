@@ -1,0 +1,54 @@
+footer{
+    background-color: #232527;
+    width: 100%;
+    height: 300px;
+    margin-top: 1.5em;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer div{
+    padding-top: 50px;
+}
+
+.bi{
+    color: grey;
+}
+
+.bi:hover{
+    color: white;
+}
+
+footer li{
+    list-style-type: none;
+    margin-left: -30px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+address{
+    line-height: 0.5;
+}
+
+.icon{
+    margin-top: 5px;
+    padding-top: 20px;
+}
+
+#Igithub{
+    width: 35px;
+    height: 35px;
+}
+
+#Itwitter{
+    width: 35px;
+    height: 35px;
+}
+
+#Ilinkedin{
+    width: 35px;
+    height: 35px;
+}
