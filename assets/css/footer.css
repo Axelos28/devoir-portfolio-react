@@ -29,8 +29,12 @@ footer a{
     text-decoration: none;
 }
 
-address{
+#Fadress{
     line-height: 0.5;
+}
+
+h5{
+    margin-bottom: 16px;
 }
 
 .icon{
