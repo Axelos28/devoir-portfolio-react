@@ -1,0 +1,12 @@
+.navbar-brand{
+    text-transform: uppercase;
+}
+
+.nav-item{
+    text-transform: uppercase;
+}
+
+.nav-item a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
