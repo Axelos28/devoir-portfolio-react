@@ -19,6 +19,12 @@ h1{
     width: 70%;
     margin-top: 3em;
 }
+
+.line2{
+    border: 2px solid rgb(63, 122, 233);
+    opacity: 1;
+}
+
 .form{
     width: 50%;
 }
@@ -27,3 +33,6 @@ textarea{
     height: 500px;
 }
 
+.col-auto{
+    padding-left: 45%;
+}
