@@ -14,10 +14,12 @@ h1{
 }
 .box{
     display: flex;
-    border: 3px solid black;
     margin: auto;
     width: 70%;
     margin-top: 3em;
+    border: 1px solid white;
+    box-shadow: 3px 3px 5px 2px rgb(238, 231, 231), -3px -3px 5px 2px rgb(238, 231, 231);
+    border-radius: 5px;
 }
 
 .line2{
@@ -47,6 +49,32 @@ address{
     line-height: 0.1;
 }
 iframe{
-    width: 670px;
-    height: 540px;
+    width: 100%;
+    height: 65%;
+}
+
+@media (max-width:720px){
+    .box{
+        flex-direction: column;
+        width: 100%;
+    }
+    .form{
+        width: 90%;
+        margin: auto;
+        margin-top: 40px;
+    }
+    .contact{
+        width: 90%;
+        margin: auto;
+    }
+    .title{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .line{
+        width: 40%;
+    }
+    iframe{
+        height: 600px;
+    }
 }
