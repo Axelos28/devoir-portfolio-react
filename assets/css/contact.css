@@ -23,10 +23,17 @@ h1{
 .line2{
     border: 2px solid rgb(63, 122, 233);
     opacity: 1;
+    margin-bottom: 50px;
 }
 
 .form{
-    width: 50%;
+    width: 45%;
+    margin: 30px;
+}
+
+.contact{
+    width: 45%;
+    margin: 30px;
 }
 
 textarea{
@@ -35,4 +42,11 @@ textarea{
 
 .col-auto{
     padding-left: 45%;
+}
+address{
+    line-height: 0.1;
+}
+iframe{
+    width: 670px;
+    height: 540px;
 }
