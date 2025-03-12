@@ -1,3 +1,7 @@
+img{
+    width: 100%;
+}
+
 h1{
     text-align: center;
     margin-top: 30px;
@@ -11,15 +15,15 @@ h1{
     
     border: 3px solid rgb(63, 122, 233);
     opacity: 1;
-    width: 450px;
+    width: 40%;
     margin: auto;
   
 }
 .service{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     margin-top: 5em;
+    justify-content:center;
 }
 #icon{
     color: rgb(12, 12, 235);
@@ -29,4 +33,37 @@ h1{
 }
 h4{
     text-align: center;
+}
+
+.card-text{
+    text-align: center;
+    font-size: 0.9em;
+}
+.card{
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    
+}
+
+.card:hover{
+    background-color:#efefef;
+    box-shadow: 3px 3px 5px 2px rgb(238, 231, 231), -3px -3px 5px 2px rgb(238, 231, 231);
+}
+
+
+@media (max-width:720px){
+    .service{
+        flex-direction: column;
+    }
+    .card{
+        width: 90%;
+        margin: auto;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        
+    }
+    .text{
+        font-size: 0.5;
+    }
+   
 }
