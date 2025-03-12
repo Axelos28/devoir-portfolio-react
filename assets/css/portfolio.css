@@ -32,6 +32,7 @@ h1{
 
 .card:hover{
     background-color: #efefef;
+    box-shadow: 3px 3px 5px 2px rgb(238, 231, 231), -3px -3px 5px 2px rgb(238, 231, 231);
 }
 
 .btn:hover{
