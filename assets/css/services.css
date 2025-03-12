@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.text{
+    text-align: center;
+}
+
+.line{
+    
+    border: 3px solid rgb(63, 122, 233);
+    opacity: 1;
+    width: 450px;
+    margin: auto;
+  
+}
