@@ -1,0 +1,35 @@
+img{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.title-text{
+    text-align: center;
+}
+
+.line{
+    
+    border: 3px solid rgb(63, 122, 233);
+    opacity: 1;
+    width: 30%;
+    margin: auto;
+  
+}
+.row{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+
+.card{
+    text-align: center;
+}
+
+.card:hover{
+    background-color: #efefef;
+}
