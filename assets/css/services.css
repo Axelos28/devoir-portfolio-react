@@ -15,3 +15,18 @@ h1{
     margin: auto;
   
 }
+.service{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5em;
+}
+#icon{
+    color: rgb(12, 12, 235);
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+h4{
+    text-align: center;
+}
