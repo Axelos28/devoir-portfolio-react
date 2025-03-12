@@ -62,3 +62,8 @@ h5{
         margin-left: 30px;
     }
 }
+
+footer a:hover {
+    color: white;
+    font-weight: bold;
+}
