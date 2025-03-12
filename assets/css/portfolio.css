@@ -33,3 +33,7 @@ h1{
 .card:hover{
     background-color: #efefef;
 }
+
+.btn:hover{
+    opacity: 0.5;
+}
